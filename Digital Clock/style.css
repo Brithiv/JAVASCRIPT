@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background: rgb(10,10,80);
+    background: linear-gradient(90deg, rgba(10,10,80,1) 0%, rgba(84,204,235,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    color:white;
+    border: 2px solid white;
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
