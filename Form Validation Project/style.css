@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(121,32,153,1) 86%);
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+h1{
+    text-align: center;
+    color: #792099;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    padding: 5px;
+    border: 1px solid rgb(34,193,195);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.input-group input:focus{
+    outline: 0;
+}
+
+button{
+    margin: 20px 0px;
+    background-color:#792099 ;
+    color: white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.input-group .error{
+    color: red;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color: red;
+}
