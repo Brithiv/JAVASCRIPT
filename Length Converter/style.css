@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+
+#container{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+.inputdiv{
+    margin: 20px;
+}
+
+#submit{
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#result{
+    color:white;
+    margin-top:20px;
+    font-size:1.5em;
+}
