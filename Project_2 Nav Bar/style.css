@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('/Nav Bar/media/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(83, 40, 123);
+}
+
+#logo a{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+li a{
+    font-size: 20px;
+}
+
+.menu{
+    color: rgb(83, 40, 123);
+    cursor: pointer;
+    display: none;
+}
+
+#logo a:hover{
+    color: #8f242e;
+}
+
+li a:hover{
+    color: #8f242e;
+}
+
+@media all and (max-width:460px){
+    nav{
+        flex-direction: column;
+    }
+
+    ul li{
+        display: block;
+        padding: 3px 0px;
+    }
+
+    #logo{
+        align-self: flex-start;
+        padding-left:20px;
+    }
+
+    .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        cursor: pointer;
+    }
+
+    ul{
+        padding: 0px;
+        display: none;
+    }
+
+    .showMenu{
+        display: block;
+    }
+}
