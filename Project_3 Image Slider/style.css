@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(230, 172, 79);
+}
+
+.container{
+    width: 60%;
+    height: 80vh;
+    border: 5px solid rgb(117, 221, 123);
+    margin: 3rem auto;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.6);
+    background: url('/Project_3 Image Slider/Img/1.jpg') center/cover fixed no-repeat;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn-left{
+    position: absolute;
+    top: 45%;
+    left: -2%;
+    background-color: white;
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-right{
+    position: absolute;
+    top: 45%;
+    right: -2%;
+    background-color: white;
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
