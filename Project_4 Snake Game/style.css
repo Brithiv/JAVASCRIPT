@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+h2{
+    color: green;
+}
+
+#gameBoard{
+    border: 3px solid;
+    margin-top: 1em;
+}
+
+#score{
+    font-size:1.5em;
+}
